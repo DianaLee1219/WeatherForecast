@@ -1,4 +1,4 @@
-Longitude_Laditude
+RoundupValues.py
 
 - The script rounds the latitude and longitude values to 0.1 resolution.
 - It prints the first 10 rows of the modified table.
