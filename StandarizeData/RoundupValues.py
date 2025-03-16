@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the data from the Excel file
-file_path = 'WeatherForcast_crosscheck.xlsx'
+file_path = 'WeatherForcast_Crosscheck.xlsx'
 sheet_name = 'GlobalWeatherRepository'
 df = pd.read_excel(file_path, sheet_name=sheet_name)
 
