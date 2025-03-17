@@ -1,7 +1,7 @@
 # Handling Missing Values and Typos
 ## How does it work?
 
-I corrected typos using python code and searched missing values later. 
+I corrected typos using Python code and identified missing values afterward.
 
 Most of the work related to correcting typos was done manually.
 
@@ -28,3 +28,16 @@ Notes:
 * Google Sheets' Data Cleanup Tool and manual Google Maps verification were used for accuracy.
 
 Can be found in the History.txt file.
+
+## MissingValue.py: Identifying Missing Values
+
+To further improve data quality, I wrote a Python script (MissingValue.py) to detect missing values in the dataset.
+
+**How It Works**: This script reads the dataset from a CSV file and checks for any missing (empty) values in each column.
+
+Key Features:
+
+* Reads the dataset from a CSV file.
+* Handles encoding errors (prevents issues caused by special characters).
+* Detects missing values (NaN) in each column.
+* Displays only columns with missing values, making it easier to identify and fix them.
