@@ -10,7 +10,12 @@ The table below is useful outlier handling methods for each column, considering 
 * Normal Range: -89.2°C (lowest recorded) to 56.7°C (highest recorded)
 * Clipping: Cap values between -90°C and 60°C to remove extreme anomalies.
 * Z-Score Method: Use Z > 3 as an outlier threshold based on historical distributions.
-
+* 
+## Feels-Like Temperature [°C]
+* Normal Range: Should be close to actual temperature, but affected by wind chill and humidity.
+* Check Deviation: Flag as outlier if feels-like temperature deviates by >15°C from actual.
+* Feature Clipping: Keep within -100°C to 70°C (to include extreme wind chill).
+  
 ## Wind Speed [kph]
 * Normal Range: 0 to 407 kph (highest recorded, Hurricane Olivia)
 * Clipping: Cap wind speed at 450 kph (allowing buffer for extreme storms).
@@ -30,11 +35,6 @@ The table below is useful outlier handling methods for each column, considering 
 * Normal Range: 0% (extreme desert) to 100% (fully saturated air)
 * Clipping: Ensure values stay within 0–100%.
 * Log Transformation: If humidity has an odd distribution, apply log(1+humidity).
-
-## Feels-Like Temperature [°C]
-* Normal Range: Should be close to actual temperature, but affected by wind chill and humidity.
-* Check Deviation: Flag as outlier if feels-like temperature deviates by >15°C from actual.
-* Feature Clipping: Keep within -100°C to 70°C (to include extreme wind chill).
 
 ## Visibility [km]
 * Normal Range: 0 km (dense fog) to 100 km (clear air)
