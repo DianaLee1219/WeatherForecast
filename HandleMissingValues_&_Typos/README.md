@@ -13,8 +13,8 @@ To speed up the correction process, I used a powerful built-in tool:
 Additionally, while analyzing column data, I identified more typos by detecting rows with only **one or two** timestamps, whereas most records contained around **300 entries**.
 
 ## How were corrections made?
-*verified locations by searching their **latitude and longitude** on **Google Maps**.
-*I double-checked the results using the corresponding time zone information to ensure accuracy.
+* verified locations by searching their **latitude and longitude** on **Google Maps**.
+* I double-checked the results using the corresponding time zone information to ensure accuracy.
 By following this approach, I effectively handled missing values and improved data consistency.
 
 ## History of Corrections
