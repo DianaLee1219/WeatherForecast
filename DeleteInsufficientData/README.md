@@ -15,3 +15,7 @@ To ensure data consistency and reliability, I decided to analyze the number of d
 3. Visualize the results by plotting a before-and-after graph:
    * x-axis is city names
    * y-axis is the number of data
+
+## Results
+![image](https://github.com/user-attachments/assets/205c8241-ba2f-4973-8cd0-3770959d26eb)
+![image](https://github.com/user-attachments/assets/70ba77ea-da92-40b1-9982-078ef0500df6)
