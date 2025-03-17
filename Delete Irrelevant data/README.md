@@ -13,14 +13,12 @@ After downloading the dataset from Kaggle (World Weather Repository: https://www
 The following features were excluded:
 
 •	Wind degree
-
 •	Cloud coverage
-
 •	Gust speed
-
 •	Air quality indices (CO₂, SO₂, PM10, US-EPA index, GB-DEFRA index)
-
 •	Moonrise/Moonset times
+* Moon phase
+* Moon illumination
 
 By filtering out unnecessary data, the dataset becomes more structured and aligned with real-world weather applications.
 
