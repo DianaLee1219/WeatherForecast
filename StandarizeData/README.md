@@ -1,7 +1,7 @@
 # Overview
 1. RoundUpValues – Standardizes latitude and longitude values.
 2. ValidateUnits – Converts and validates weather unit measurements.
-3. DeleteColumns – Removes redundant columns 
+3. DeleteColumns – Removes redundant columns.
    
 ## RoundupValues: Standardizing Coordinates
 
