@@ -1,17 +1,25 @@
 ## Why it is important?
-Removing uneccassary data is the first thing to do in data science.
-So that you can focus on handling important data only!
+Removing unnecessary data is the first step in data cleaning. By eliminating irrelevant information, you can focus on handling only the essential data, improving efficiency and accuracy in data analysis.
 
-## What is the standard of relevant data?
+## What is the standard for relevant data?
 
-I benchmarked the weatherforecast application on my iphone 12, and extracted main features.
-Then I made a hierachy based on the order (from top to bottom of the app).
-1. Basic features: time series, location, temperature, condition
-2. Advanced features: feels like temperature, air quality (PM2.5, ozone, NO2), precipitation, UV index, sunrise, sunset, wind direction, humidity, visibility, pressure
+To define relevant weather data, I analyzed the Weather app on my iPhone 12 and identified its key features. Based on the app’s layout (from top to bottom), I categorized the features into two levels:
 
-Therefore, after I downloaded the dataset from kaggle (World Weather Repository: https://www.kaggle.com/datasets/nelgiriyewithana/global-weather-repository/code)
-I extracted irrelevant data from the "GlobalWeatherRepository.csv"
-•	wind degree, cloud, gust, air quality (CO2, SO2, PM10, us-epa-index, gb-defra-index), moon rise/fall
+1. Basic Features: Time series, location, temperature, condition
+2. Advanced Features: Feels-like temperature, air quality (PM2.5, ozone, NO₂), precipitation, UV index, sunrise, sunset, wind direction, humidity, visibility, and pressure
+
+After downloading the dataset from Kaggle (World Weather Repository: https://www.kaggle.com/datasets/nelgiriyewithana/global-weather-repository/code), 
+
+I removed irrelevant columns from the GlobalWeatherRepository.csv file. The following features were excluded:
+
+•	Wind degree
+•	Cloud coverage
+•	Gust speed
+•	Air quality indices (CO₂, SO₂, PM10, US-EPA index, GB-DEFRA index)
+•	Moonrise/Moonset times
+
+By filtering out unnecessary data, the dataset becomes more structured and aligned with real-world weather applications.
+
 
 ## Additional Information - Air Quality
 1️⃣ PM2.5 (Fine Particulate Matter)
