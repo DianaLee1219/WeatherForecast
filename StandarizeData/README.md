@@ -1,7 +1,7 @@
 # Overview
 1. RoundUpValues – Standardizes latitude and longitude values.
 2. ValidateUnits – Converts and validates weather unit measurements.
-3. DeleteColumns – Removes redundant columns.
+3. RemoveUnits – Removes redundant columns.
    
 ## RoundupValues: Standardizing Coordinates
 
@@ -17,7 +17,7 @@ After conversion, the script compares the original and calculated values. If the
 
 ![image](https://github.com/user-attachments/assets/c208c783-e981-4fcb-bd33-a78c690277b5)
 
-## DeleteColumns: Removing Redundant Data
+## RemoveUnits: Deleting Redundant Data
 
 After successful validation, the original columns (which contained data in different units) are no longer needed. 
 
