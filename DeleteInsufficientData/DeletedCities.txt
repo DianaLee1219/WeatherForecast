@@ -1,0 +1,53 @@
+Cities with less than 200 entries:
+Koror                    53
+Lom                      48
+Grindavik                36
+Norman Gardens           36
+Felidhoo                 34
+Pasto                    25
+Rangoon                  21
+Adkip                    20
+Bafoussam                18
+Yaounde                  16
+Washington Park          16
+San Juan                 16
+S Gravenstaffel          16
+Meyungs                  16
+Pathein                  16
+S Gravenjansdyk          12
+Carreria                 11
+Grenada                   1
+Mombasa                   1
+Sao Paulo                 1
+Beijing Shi               1
+Melbourne                 1
+Kingston                  1
+Douala                    1
+#NAME?                    1
+Bogota                    1
+Reykjavik                 1
+Phnum Penh                1
+Male                      1
+Krasnyy Turkmenistan      1
+Pristina                  1
+Nuku'alofa                1
+Mexico (Grupo Mexico)     1
+Ar Riyadh                 1
+Sabah                     1
+Kuwait                    1
+Kiyabo                    1
+Ho Chi Minh City          1
+Lome                      1
+Morocco City              1
+Tripoli                   1
+Bali                      1
+Palau                     1
+Saint Petersburg          1
+New York                  1
+Addis Abeba               1
+City Of San Marino        1
+Vientiane                 1
+Surabaya                  1
+Asuncion                  1
+Arauca                    1
+Name: location_name, dtype: int64
