@@ -27,16 +27,23 @@ By filtering out unnecessary data, the dataset becomes more structured and align
 
 ## Additional Information - Air Quality
 1️⃣ PM2.5 (Fine Particulate Matter)
+
 •	Why important? PM2.5 particles are small enough to enter deep into the lungs and even the bloodstream, causing severe respiratory and cardiovascular issues.
+
 •	Health Effects: Increases risks of asthma, lung disease, and heart attacks.
+
 •	Source: Emissions from vehicles, industrial processes, wildfires, and combustion.
 
 2️⃣ Ozone (O₃)
 •	Why important? Ground-level ozone is a primary component of smog and can cause severe lung irritation and breathing issues.
+
 •	Health Effects: Can trigger asthma attacks and reduce lung function over time.
+
 •	Source: Forms when pollutants react with sunlight (commonly from vehicle emissions).
 
 3️⃣ Nitrogen Dioxide (NO₂)
 •	Why important? NO₂ is a major air pollutant that contributes to respiratory diseases and forms secondary pollutants like ozone and PM2.5.
+
 •	Health Effects: Causes airway inflammation, lung damage, and increased vulnerability to respiratory infections.
+
 •	Source: Emissions from vehicles, power plants, and industrial activities.
