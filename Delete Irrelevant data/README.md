@@ -13,7 +13,7 @@ Therefore, after I downloaded the dataset from kaggle (World Weather Repository:
 I extracted irrelevant data from the "GlobalWeatherRepository.csv"
 •	wind degree, cloud, gust, air quality (CO2, SO2, PM10, us-epa-index, gb-defra-index), moon rise/fall
 
-## Additional Information about Air Quality
+## Additional Information - Air Quality
 1️⃣ PM2.5 (Fine Particulate Matter)
 •	Why important? PM2.5 particles are small enough to enter deep into the lungs and even the bloodstream, causing severe respiratory and cardiovascular issues.
 •	Health Effects: Increases risks of asthma, lung disease, and heart attacks.
