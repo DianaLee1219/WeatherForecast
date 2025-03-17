@@ -10,7 +10,7 @@ The table below is useful outlier handling methods for each column, considering 
 * Normal Range: -89.2°C (lowest recorded) to 56.7°C (highest recorded)
 * Clipping: Cap values between -90°C and 60°C to remove extreme anomalies.
 * Z-Score Method: Use Z > 3 as an outlier threshold based on historical distributions.
-* 
+
 ## Feels-Like Temperature [°C]
 * Normal Range: Should be close to actual temperature, but affected by wind chill and humidity.
 * Check Deviation: Flag as outlier if feels-like temperature deviates by >15°C from actual.
