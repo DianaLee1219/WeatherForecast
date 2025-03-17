@@ -9,9 +9,9 @@
 5. Normalize data
 
 ## Exploratory Data Analysis (EDA)
-1. Perform basic EDA to uncover the trends, correlations, and patterns.
-2. Visualizations for temperature and precipitation.
+0. Perform basic EDA to uncover the trends, correlations, and patterns.
+1. Visualizations for temperature and precipitation.
 
 ## Model Building
-1. Basic forecasting model and evaluation.
-2. SOTA time series analysis.
+0. Basic forecasting model and evaluation.
+1. SOTA time series analysis.
