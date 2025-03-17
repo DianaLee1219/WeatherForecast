@@ -1,73 +1,69 @@
 import pandas as pd
 
-threshold_temperature = 0.1 # [degC]
-threshold_wind = 0.3 # [kph]
-threshold_pressure = 1 #[mb]
-threshold_precip = 1 # [mm]
-threshold_feels_like = 0.1 # [degC]
-threshold_visibility = 2 # [km]
+# Conversion Thresholds
+thresholds = {
+    "temperature": 0.1,  # [°C]
+    "wind": 0.3,  # [kph]
+    "pressure": 1,  # [mb]
+    "precip": 1,  # [mm]
+    "feels_like": 0.1,  # [°C]
+    "visibility": 2  # [km]
+}
 
-# Load the Excel file
-df = pd.read_excel("WeatherForecast_Assessment.xlsx")
+# Load the dataset
+df = pd.read_csv("WeatherForecast_rounded.csv", encoding="ISO-8859-1")
 
-#Rename
+# Rename columns for clarity
 df = df.rename(columns={"temperature_celsius": "degC", "temperature_fahrenheit": "degF"})
 
-
-# Function to convert 
+# Conversion Functions
 def fahrenheit_to_celsius(fahrenheit):
-    return (fahrenheit - 32) * 5/9
+    return (fahrenheit - 32) * 5 / 9
 
 def mph_to_kph(mph):
     return mph * 1.60934
 
 def in_to_mb(pressure_in):
     return pressure_in * 33.8639
-    
+
 def in_to_mm(precip_in):
     return precip_in * 25.4
-
-def fahrenheit_to_celsius(fahrenheit):
-    return (fahrenheit - 32) * 5/9
 
 def miles_to_km(miles):
     return miles * 1.60934
 
+# Apply conversions only if the column exists
+conversion_mapping = {
+    "calculated_degC": ("degF", fahrenheit_to_celsius),
+    "calculated_kph": ("wind_mph", mph_to_kph),
+    "calculated_pressure_mb": ("pressure_in", in_to_mb),
+    "calculated_precip_mm": ("precip_in", in_to_mm),
+    "calculated_feels_like_c": ("feels_like_fahrenheit", fahrenheit_to_celsius),
+    "calculated_visibility_km": ("visibility_miles", miles_to_km),
+}
 
-# Perform conversions 
+for new_col, (original_col, func) in conversion_mapping.items():
+    if original_col in df.columns:
+        df[new_col] = df[original_col].apply(func)
 
-df["calculated_degC"] = df["degF"].apply(fahrenheit_to_celsius)
-df["calculated_kph"] = df["wind_mph"].apply(mph_to_kph)
-df["calculated_pressure_mb"] = df["pressure_in"].apply(in_to_mb)
-df["calculated_precip_mm"] = df["precip_in"].apply(in_to_mm)
-df["calculated_feels_like_c"] = df["feels_like_fahrenheit"].apply(fahrenheit_to_celsius)
-df["calculated_visibility_km"] = df["visibility_miles"].apply(miles_to_km)
+# Validation Checks
+validation_mapping = {
+    "valid_temperature": ("degC", "calculated_degC", "temperature"),
+    "valid_wind": ("wind_kph", "calculated_kph", "wind"),
+    "valid_pressure": ("pressure_mb", "calculated_pressure_mb", "pressure"),
+    "valid_precip": ("precip_mm", "calculated_precip_mm", "precip"),
+    "valid_feels_like": ("feels_like_celsius", "calculated_feels_like_c", "feels_like"),
+    "valid_visibility": ("visibility_km", "calculated_visibility_km", "visibility"),
+}
 
-# Validate conversions
-df["valid"] = abs(df["degC"] - df["calculated_degC"]) < temperature_threshold
-df["valid"] = abs(df["wind_kph"] - df["calculated_kph"]) < threshold_wind
-df["valid_pressure"] = abs(df["pressure_mb"] - df["calculated_pressure_mb"]) < threshold_pressure
-df["valid_precip"] = abs(df["precip_mm"] - df["calculated_precip_mm"]) < threshold_precip
-df["valid_feels_like"] = abs(df["feels_like_celsius"] - df["calculated_feels_like_c"]) < threshold_feels_like
-df["valid_visibility"] = abs(df["visibility_km"] - df["calculated_visibility_km"]) < threshold_visibility
+for valid_col, (original_col, calculated_col, threshold_key) in validation_mapping.items():
+    if original_col in df.columns and calculated_col in df.columns:
+        df[valid_col] = abs(df[original_col] - df[calculated_col]) < thresholds[threshold_key]
 
-# Check for mismatches
-mismatch_count = df["valid"].value_counts().get(False, 0)
-if mismatch_count > 0:
-    print(f"Warning: {mismatch_count} temperature mismatch(es) detected!")
-else:
-    print("Temerpature: No mismatch has found")
-
-mismatch_count_wind = df["valid"].value_counts().get(False, 0)
-if mismatch_count_wind > 0:
-    print(f"Warning: {mismatch_count_wind} wind speed mismatch(es) detected!")
-else:
-    print("Wind: No mismatch has found")
-
-
-for column, label in [("valid_pressure", "Pressure"), ("valid_precip", "Precipitation"), ("valid_feels_like", "Feels-Like Temperature"), ("valid_visibility", "Visibility")]:
-    mismatch_count = df[column].value_counts().get(False, 0)
+# Display Validation Results
+for valid_col, (_, _, label) in validation_mapping.items():
+    mismatch_count = df[valid_col].value_counts().get(False, 0)
     if mismatch_count > 0:
-        print(f"Warning: {mismatch_count} {label} mismatch(es) detected!")
+        print(f"⚠ Warning: {mismatch_count} {label.capitalize()} mismatch(es) detected!")
     else:
-        print("No mismatch has found")
+        print(f"{label.capitalize()}: No mismatch found")
