@@ -31,12 +31,12 @@ Matched with America/Bogotá time zone.
 ???, New Guatemala → Guatemala, New Guatemala
 
 Verified using latitude & longitude (14.62, -90.53).
-Matched with America/Guatemala time zone.
+Matched with America/Guatemala time zone, but this city had only one record, so the row was removed.
 
 ???, Beirut → Poland, Beirut
 
 Verified using latitude & longitude (51.12, 17.53).
-Matched with Europe/Warsaw time zone.
+Matched with Europe/Warsaw time zon, but this city had only one record, so the row was removed.
 
 ???, Yaren → Turkey, Yaren
 
@@ -47,11 +47,8 @@ Matched with Europe/Istanbul time zone.
 Turkm?nistan, Krasnyy Turkme → Turkmenistan, Krasnyy Turkme
 
 Verified city name Krasnyy Turkme.
-Matched with latitude & longitude (37.7, 65.37).
-Dushanbe, ?? → Turkey, Dadağı
+Matched with latitude & longitude (37.7, 65.37), but this city had only one record, so the row was removed.
 
-Verified using latitude & longitude (38.85, 34.65).
-Matched with Europe/Istanbul time zone.
+
 Pol?nia, Moldova → Poland, Dawia
-
 Checked latitude & longitude, but this city had only one record, so the row was removed.
