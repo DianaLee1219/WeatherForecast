@@ -11,9 +11,13 @@ To define relevant weather data, I analyzed the Weather app on my iPhone 12 and 
 After downloading the dataset from Kaggle (World Weather Repository: https://www.kaggle.com/datasets/nelgiriyewithana/global-weather-repository/code), I removed irrelevant columns from the GlobalWeatherRepository.csv file. The following features were excluded:
 
 •	Wind degree
+
 •	Cloud coverage
+
 •	Gust speed
+
 •	Air quality indices (CO₂, SO₂, PM10, US-EPA index, GB-DEFRA index)
+
 •	Moonrise/Moonset times
 
 By filtering out unnecessary data, the dataset becomes more structured and aligned with real-world weather applications.
