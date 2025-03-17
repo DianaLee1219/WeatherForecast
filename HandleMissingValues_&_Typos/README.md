@@ -26,8 +26,7 @@ Notes:
 * All corrections were based on latitude, longitude, and time zone validation.
 * Rows with only one data point were removed to maintain dataset consistency.
 * Google Sheets' Data Cleanup Tool and manual Google Maps verification were used for accuracy.
-
-Can be found in the History.txt file.
+* Detailed correction history can be found in History.txt.
 
 ## MissingValue.py: Identifying Missing Values
 
