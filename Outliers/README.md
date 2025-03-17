@@ -36,7 +36,6 @@ The table below is useful outlier handling methods for each column, considering 
 ## UV indext
 * Normal Range: 0 (no sunlight) to 20+ (extreme UV radiation)
 * Clipping: Limit values between 0 and 24 (the highest UV ever recorded was 23.5 in the Andes).
-* Rolling Average Check: Sudden fluctuations should be smoothed over time.
 
 ## Air Quality (Ozone, NO₂, PM2.5)
 * Ozone (O₃) Normal Range: 0–400 ppb (extreme pollution events)
