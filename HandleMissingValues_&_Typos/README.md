@@ -1,7 +1,9 @@
 # Handling Missing Values and Typos
 ## How does it work?
 
-Most of the work related to handling missing values and correcting typos was done manually.
+I corrected typos using python code and searched missing values later. 
+
+Most of the work related to correcting typos was done manually.
 
 I noticed a significant number of typos in the **country** and **location_name (city)** fields. 
 
