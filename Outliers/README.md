@@ -50,5 +50,5 @@ This script detects and removes outliers in weather data using a combination of 
 * Clipping + IQR Method: Set reasonable upper limits based on historical records and remove values using IQR.
 
 ## Results
-
+📂 List of Outliers (exmpales): ListofOutliers.txt
 📂 Final Cleaned Dataset: WeatherForecast_CleanedOutliers.csv
