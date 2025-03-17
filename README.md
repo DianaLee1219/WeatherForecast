@@ -4,8 +4,8 @@
 0. Delete irrelevant data
 1. Handle missing values / Typo
 2. Delete insufficient data
-3. Outliers removal
-4. Standarize data / CrossCheck 
+3. Standarize data 
+4. Outliers removal   
 5. Normalize data
 
 ## Exploratory Data Analysis (EDA)
