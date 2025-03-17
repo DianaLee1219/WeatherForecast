@@ -6,7 +6,7 @@ The table below is useful outlier handling methods for each column, considering 
 
 ## Temperature [°C]
 * Normal Range: -89.2°C (lowest recorded) to 56.7°C (highest recorded)
-* Clipping + Z-Score Method: Cap values between -90°C and 57°C to remove extreme anomalies. Also, use Z > 3 as an outlier threshold based on historical distributions.
+* Clipping + Z-Score Method: Cap values between -90°C and 57°C to remove extreme anomalies. Also, used Z > 3 as an outlier threshold based on historical distributions.
 
 ## Feels-Like Temperature [°C]
 * Normal Range: Should be close to actual temperature, but affected by wind chill and humidity.
@@ -41,4 +41,4 @@ The table below is useful outlier handling methods for each column, considering 
 * Ozone (O₃) Normal Range: 0–400 ppb (extreme pollution events)
 * NO₂ Normal Range: 0–300 ppb (urban high pollution)
 * PM2.5 Normal Range: 0–600 µg/m³ (severe pollution)
-* Clipping + IQR Method: Set reasonable upper limits based on historical records and remove values beyond Q3 + 1.5*IQR.
+* Clipping + IQR Method: Set reasonable upper limits based on historical records and remove values using IQR.
