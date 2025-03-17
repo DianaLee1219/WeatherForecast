@@ -3,7 +3,7 @@
 ## Data Cleaning & Preprocessing
 0. Delete irrelevant data
 1. Handle missing values / Typo
-2. column statistics
+2. Column statistics
 3. Standarize data / CrossCheck 
 4. Outliers removal
 5. Normalize data
