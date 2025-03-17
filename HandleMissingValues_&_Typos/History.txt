@@ -17,12 +17,6 @@ S?dkorea → South Korea
 Verified using latitude & longitude (37.57, 127).
 Double-checked with time zone column (Asia/Seoul).
 
-???, Costa Rica → Colombia, Arauca
-
-The city was incorrectly labeled as Costa Rica, which is a country.
-Verified using latitude & longitude (6.43, -70.92).
-Corrected to Arauca, Colombia.
-
 B?lgica, Bern → Belgium, Bernum
 
 Verified using latitude & longitude (51.1, 4.75).
