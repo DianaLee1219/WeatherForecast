@@ -17,7 +17,7 @@ This script detects and removes outliers in weather data using a combination of 
 
 2. Feels-Like Temperature [°C]
 * Normal Range: Should be close to actual temperature, but affected by wind chill and humidity.
-* Feature Clipping + Z-score detection: Keep within -100°C to 60°C (to include extreme wind chill) and check extreme values.
+* Clipping + Z-score detection: Keep within -100°C to 60°C (to include extreme wind chill) and check extreme values.
   
 3. Wind Speed [kph]
 * Normal Range: 0 to 407 kph (highest recorded, Hurricane Olivia)
