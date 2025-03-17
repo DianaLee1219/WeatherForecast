@@ -17,7 +17,6 @@ This script detects and removes outliers in weather data using a combination of 
 
 2. Feels-Like Temperature [°C]
 * Normal Range: Should be close to actual temperature, but affected by wind chill and humidity.
-* Check Deviation: Flag as outlier if feels-like temperature deviates by >15°C from actual.
 * Feature Clipping + Z-score detection: Keep within -100°C to 60°C (to include extreme wind chill) and check extreme values.
   
 3. Wind Speed [kph]
