@@ -8,7 +8,7 @@ While examining missing values and typos, I identified that some cities containe
 
 To ensure data consistency and reliability, I decided to analyze the number of data entries for each city. If a city had fewer than 200 entries, I excluded it from the dataset to maintain a meaningful analysis.
 
-## How does it works?
+## How does it work?
 
 1. Count the number of data entries for each city.
 2. Remove the corresponding rows from the dataset if a city has fewer than 200 entries.
