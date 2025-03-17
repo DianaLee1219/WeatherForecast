@@ -2,20 +2,25 @@
 
 ## Why it is necessary?
 
-For weather forecasting models, having sufficient data is crucial for accurate analysis and predictions.
+For an accurate weather forecasting model, having a sufficient amount of data per city is essential. Inconsistent or insufficient data can lead to unreliable analysis and predictions.
 
-While examining missing values and typos, I identified that some cities contained only one or two timestamps, whereas most records had around 300 entries.
+During handling missing values and typos, I noticed that while most cities had around 300 data entries, some had fewer than 200, with a few containing only one or two timestamps. Such sparse data points are not useful for meaningful analysis.
 
-To ensure data consistency and reliability, I decided to analyze the number of data entries for each city. If a city had fewer than 200 entries, I excluded it from the dataset to maintain a meaningful analysis.
+To ensure data consistency and improve model performance, I decided to remove cities with fewer than 200 data entries.
+
 
 ## How does it work?
 
-1. Count the number of data entries for each city.
-2. Remove the corresponding rows from the dataset if a city has fewer than 200 entries.
-3. Visualize the results by plotting a before-and-after graph:
+1. **Count the number of data entries** for each city using the location_name column.
+2. Identify cities with **fewer than 200 entries** and print their names along with their data counts.
+3. **Remove** these cities from the dataset to maintain statistical reliability.
+4. **Visualize** the data **before and after** cleaning using bar graphs:
    * x-axis is city names
    * y-axis is the number of data
 
 ## Results
+
+Below are the visualizations of data distribution before and after cleaning. The first graph shows the number of data entries per city before filtering, while the second graph shows the distribution after removing cities with insufficient data. After this process, the cleaned dataset is saved as cleaned_data.csv. 
+
 ![image](https://github.com/user-attachments/assets/205c8241-ba2f-4973-8cd0-3770959d26eb)
 ![image](https://github.com/user-attachments/assets/70ba77ea-da92-40b1-9982-078ef0500df6)
