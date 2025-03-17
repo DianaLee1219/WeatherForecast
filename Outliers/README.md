@@ -41,6 +41,11 @@ The table below is useful outlier handling methods for each column, considering 
 * Clipping: Limit visibility between 0 and 100 km.
 * Time-Series Check: A sudden jump from 1 km to 50 km may indicate an error.
 
+## UV indext
+* Normal Range: 0 (no sunlight) to 20+ (extreme UV radiation)
+* Clipping: Limit values between 0 and 25 (the highest UV ever recorded was 23.5 in the Andes).
+* Rolling Average Check: Sudden fluctuations should be smoothed over time.
+
 ## Air Quality (Ozone, NO₂, PM2.5)
 * Ozone (O₃) Normal Range: 0–500 ppb (extreme pollution events)
 * NO₂ Normal Range: 0–300 ppb (urban high pollution)
