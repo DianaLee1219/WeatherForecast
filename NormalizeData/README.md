@@ -9,5 +9,3 @@
 - Z-Score Normalization (Standardization)
 - Log Transformation
 - Max Abs Scaling
-
-![image](https://github.com/user-attachments/assets/85e4209d-ed44-4c04-9f76-7ac63b149c84)
