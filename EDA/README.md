@@ -17,7 +17,7 @@
 
 ![image](https://github.com/user-attachments/assets/24044ca9-9916-4d73-a681-d4e40246cd3a)
 
-[Graph 2. The temperature distribution graph after removing outliers]
+[Graph 2. The temperature distribution after removing outliers]
 * Mean: 23.64 °C
 * Median: 25.40 °C
 * Mode: 28.20 °C
@@ -30,7 +30,7 @@
 
 ![image](https://github.com/user-attachments/assets/5d25c38e-3509-4eea-accf-d89739dde7e3)
 
-[Graph3. The air quality PM2.5 distribution graph after removing outliers.]
+[Graph 3. The air quality PM2.5 distribution after removing outliers.]
 * Mean: 12.58 (µg/m3)
 * Median: 9.62 (µg/m3)
 * Mode: 0.50 (µg/m3)
@@ -43,7 +43,7 @@
 
 ![image](https://github.com/user-attachments/assets/1fa5d251-6343-4e21-bab1-6c9baf9b62f8)
 
-[Graph 4. The temperature trend over time: As you can see on the graph, the temperature drops down during winter season and it goes up during summer season.]
+[Graph 4. The temperature trend over time: The temperature drops down during winter season and it goes up during summer season.]
 
 More information: MonthlyAverageTemperatures.txt
 
@@ -53,7 +53,7 @@ More information: MonthlyAverageTemperatures.txt
 
 ![image](https://github.com/user-attachments/assets/1031cfa6-5b41-4135-a941-d5bd9c5bb2da)
 
-[Graph5. The temperature distribution by weather condition]
+[Graph 6. The temperature distribution by weather condition]
 
 | Weather Condition  | Average Temperature (°C ) |
 | ------------- | ------------- |
@@ -73,25 +73,25 @@ More information:  AverageTemperaturebyWeatherCondition.txt
 
 ![image](https://github.com/user-attachments/assets/fa176916-b270-4427-a59f-ca3ecff58d87)
 
-[Graph 6. Wind speed data frequncy]
+[Graph 7. Wind speed data frequncy]
 * One data has clipped into 410 during outlier removal process (originally it was 2963)
 * Other data such as 272, 258, 205, 172 were identified as hurricane (>120kph)
 ![image](https://github.com/user-attachments/assets/217a9a44-4158-48af-8c87-c13e33b02d63)
 
-[Graph 7. Correlation between temperature and humidity]
+[Graph 8. Correlation between temperature and humidity]
 * Temperature and humidity is negatively correlated according to the graph.
   
 ![image](https://github.com/user-attachments/assets/d326eab6-4355-42ed-96e9-580e32bced88)
 
-[Graph 7. Average temperature by country]
+[Graph 9. Average temperature by country]
 
 * Mean: 23.67 °C
 * Median: 24.80 °C
 * Min Temperature: 5.85 °C
 * Max Temperature: 42.11 °C
 * Standard Deviation: 5.97 °C
-* Skewness: -0.27
-* Kurtosis: 0.48
+* Skewness: -0.27 (left-tailed)
+* Kurtosis: 0.48 (Light-tailed)
 
 ![image](https://github.com/user-attachments/assets/706dd611-86c7-4736-aabb-d03caf83549f)
-[Graph 8. 
+[Graph 10. 
