@@ -48,7 +48,7 @@ As you can see on the graph, the temperature drops down during winter season and
 
 ![image](https://github.com/user-attachments/assets/28f4a9e3-dd5e-47dd-ac37-e01baff15f7b)
 
-![image](https://github.com/user-attachments/assets/5c3b4a03-d01f-4e15-8d1f-cd0b01d2eacb)
+![image](https://github.com/user-attachments/assets/1031cfa6-5b41-4135-a941-d5bd9c5bb2da)
 
 [Graph5. The temperature distribution by weather condition]
 
@@ -66,8 +66,6 @@ As you can see on the graph, the temperature drops down during winter season and
 * Sunny                                          25.12
 
   -> More information  AverageTemperaturebyWeatherCondition.txt
-
-![image](https://github.com/user-attachments/assets/7e0368d8-8553-46ee-b12f-d6c661d98f22)
 
 ![image](https://github.com/user-attachments/assets/d86383bb-6638-4113-9602-6c7323878491)
 
