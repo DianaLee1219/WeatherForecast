@@ -110,3 +110,11 @@ As you can see on the graph, the temperature drops down during winter season and
 * Patchy rain possible                           25.28
 * Thundery outbreaks in nearby                   26.60
 * Patchy light rain with thunder                 27.36
+
+![image](https://github.com/user-attachments/assets/7e0368d8-8553-46ee-b12f-d6c661d98f22)
+
+[Graph 6. It shows outliers in wind speed (it was feature clipped based on the historical data, maximum 410 kph).]
+* One data has clipped into 410 (originally it was 2963)
+* Other data such as 272, 258, 205, 172 were identified as outliers (Hurricane is 120kph)
+* I decided to remove those outliers manualy since it is only 5 data.
+
