@@ -35,7 +35,6 @@
 * Partly Cloudy                                  23.70
 * Patchy rain nearby                             23.86
 * Thundery outbreaks possible                    24.43
-* Partly cloudy                                  24.52
 * Moderate or heavy rain with thunder            24.82
 * Moderate or heavy rain shower                  24.82
 * Sunny                                          25.12
