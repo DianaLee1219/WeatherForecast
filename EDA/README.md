@@ -84,7 +84,7 @@ More information:  AverageTemperaturebyWeatherCondition.txt
 ![image](https://github.com/user-attachments/assets/d326eab6-4355-42ed-96e9-580e32bced88)
 
 [Graph 7. Average temperature by country]
-🌎 Average Temperature by Country - Statistics:
+
 * Mean: 23.67 °C
 * Median: 24.80 °C
 * Min Temperature: 5.85 °C
