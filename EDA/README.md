@@ -55,26 +55,43 @@ More information: MonthlyAverageTemperatures.txt
 
 [Graph5. The temperature distribution by weather condition]
 
-🌤️ Average Temperature (°C ) by Weather Condition (examples):
-* Blowing snow                                   -2.02
-* Heavy snow                                      0.39
-* Fog                                            18.91
-* Light rain                                     19.01
-* Clear                                          19.16
-* Mist                                           19.76
-* Moderate rain                                  20.08
-* Heavy rain                                     22.51
-* Cloudy                                         22.84
-* Partly cloudy                                  24.52
-* Sunny                                          25.12
+| Weather Condition  | Average Temperature (°C ) |
+| ------------- | ------------- |
+| Blowing snow | -2.02 |
+| Heavy snow | 0.39 |
+| Fog | 18.91 |
+| Light rain | 19.01 |
+| Clear | 19.16 |
+| Mist | 19.76 |
+| Moderate rain | 20.08 |
+| Heavy rain | 22.51 |
+| Cloudy | 22.84 |
+| Partly cloudy | 24.52 |
+| Sunny | 25.12 |
 
 More information:  AverageTemperaturebyWeatherCondition.txt
 
-![image](https://github.com/user-attachments/assets/d86383bb-6638-4113-9602-6c7323878491)
+![image](https://github.com/user-attachments/assets/fa176916-b270-4427-a59f-ca3ecff58d87)
 
+[Graph 6. Wind speed data frequncy]
 * One data has clipped into 410 during outlier removal process (originally it was 2963)
 * Other data such as 272, 258, 205, 172 were identified as hurricane (>120kph)
+![image](https://github.com/user-attachments/assets/217a9a44-4158-48af-8c87-c13e33b02d63)
 
+[Graph 7. Correlation between temperature and humidity]
+* Temperature and humidity is negatively correlated according to the graph.
+  
 ![image](https://github.com/user-attachments/assets/d326eab6-4355-42ed-96e9-580e32bced88)
 
-*
+[Graph 7. Average temperature by country]
+🌎 Average Temperature by Country - Statistics:
+* Mean: 23.67 °C
+* Median: 24.80 °C
+* Min Temperature: 5.85 °C
+* Max Temperature: 42.11 °C
+* Standard Deviation: 5.97 °C
+* Skewness: -0.27
+* Kurtosis: 0.48
+
+![image](https://github.com/user-attachments/assets/706dd611-86c7-4736-aabb-d03caf83549f)
+[Graph 8. 
