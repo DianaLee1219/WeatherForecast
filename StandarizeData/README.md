@@ -2,7 +2,12 @@
 1. RoundUpValues – Standardizes latitude and longitude values.
 2. ValidateUnits – Converts and validates weather unit measurements.
 3. RemoveUnits – Removes redundant columns.
-   
+
+
+  📁 Input File: cleaned_data.csv
+  
+  📁 Final Output File: WeatherForecast_CleanedUnits.csv
+  
 ## RoundupValues: Standardizing Coordinates
 
 * Latitude and longitude values are multiplied by 10, rounded, and then divided by 10.
@@ -31,5 +36,3 @@ Deleted Columns:
 * feels_like_fahrenheit
 * visibility_miles
   
-  📁 Input File: cleaned_data.csv
-  📁 Final Output File: WeatherForecast_CleanedUnits.csv
