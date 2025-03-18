@@ -20,15 +20,17 @@ This script detects and removes outliers in weather data using a combination of 
 * Clipping + Z-score detection: Keep within -100°C to 60°C (to include extreme wind chill) and check extreme values.
   
 3. Wind Speed [kph]
-* Normal Range: 0 to 407 kph (highest recorded, Hurricane Olivia)
+* Normal Range: 0 to 407 kph (highest recorded, Hurricane Olivia) # > 120kph is hurricane.
 * Clipping: Cap wind speed at 410 kph (allowing buffer for extreme storms).
 
 4. Pressure [mb]
-* Normal Range: 870 mb (lowest, Typhoon Tip) to 1085 mb (highest, Mongolia)
+* Normal Range: 870 mb to 1085 mb
 * Clipping + IQR: Set limits between 870 mb and 1085 mb. Apply IQR to detect anomalies.
+* Standard air pressure at sea level is 1013.25 mb. The highest air pressure recorded was 1084 mb in Siberia. The lowest air pressure, 870 mb, was recorded in a typhoon in the Pacific Ocean.
 
+  
 5. Precipitation [mm]
-* Normal Range: 0 mm (no rain) to 1825 mm/day (highest, India)
+* Normal Range: 0 mm (no rain) to 1825 mm/day (highest, India) # >50mm/h is heavy rain
 * Clipping: Cap daily precipitation at 2000 mm.
 
 6. Humidity [%]
