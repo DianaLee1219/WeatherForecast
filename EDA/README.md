@@ -97,5 +97,5 @@ The precipitation data shows extreme skewness and kurtosis due to outliers from 
 ![image](https://github.com/user-attachments/assets/fa176916-b270-4427-a59f-ca3ecff58d87)
 
 * Outliers were detected and clipped during preprocessing:
-** One extreme value was clipped to 410 kph (original: 2963 kph).
-** Other hurricane-level winds (e.g., 272, 258, 205, 172 kph) were also identified by plotting this graph.
+  * One extreme value was clipped to 410 kph (original: 2963 kph).
+  * Other hurricane-level winds (e.g., 272, 258, 205, 172 kph) were also identified by plotting this graph.
