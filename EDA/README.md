@@ -65,51 +65,20 @@ As you can see on the graph, the temperature drops down during winter season and
 
 [Graph5. The temperature distribution by weather condition]
 
-🌤️ Average Temperature (°C ) by Weather Condition (Ascending Order):
+🌤️ Average Temperature (°C ) by Weather Condition (examples):
 * Blowing snow                                   -2.02
-* Freezing fog                                   -1.84
-* Light freezing rain                            -1.28
-* Blizzard                                       -0.80
-* Moderate snow                                  -0.62
-* Light snow                                     -0.45
-* Light snow showers                             -0.35
-* Patchy light snow                              -0.08
 * Heavy snow                                      0.39
-* Patchy heavy snow                               0.47
-* Moderate or heavy snow showers                  1.92
-* Patchy moderate snow                            2.12
-* Light sleet                                     2.15
-* Patchy snow nearby                              3.40
-* Moderate or heavy snow in area with thunder     3.50
-* Light sleet showers                             4.30
-* Patchy light snow in area with thunder          4.42
-* Light drizzle                                  16.97
 * Fog                                            18.91
 * Light rain                                     19.01
 * Clear                                          19.16
-* Heavy rain at times                            19.46
 * Mist                                           19.76
-* Overcast                                       19.79
 * Moderate rain                                  20.08
-* Moderate or heavy rain in area with thunder    20.35
-* Moderate rain at times                         21.92
 * Heavy rain                                     22.51
-* Patchy light rain                              22.55
 * Cloudy                                         22.84
-* Patchy light drizzle                           22.99
-* Patchy light rain in area with thunder         23.19
-* Light rain shower                              23.70
-* Partly Cloudy                                  23.70
-* Patchy rain nearby                             23.86
-* Thundery outbreaks possible                    24.43
 * Partly cloudy                                  24.52
-* Moderate or heavy rain with thunder            24.82
-* Moderate or heavy rain shower                  24.82
 * Sunny                                          25.12
-* Torrential rain shower                         25.27
-* Patchy rain possible                           25.28
-* Thundery outbreaks in nearby                   26.60
-* Patchy light rain with thunder                 27.36
+
+  -> More information  AverageTemperaturebyWeatherCondition.txt
 
 ![image](https://github.com/user-attachments/assets/7e0368d8-8553-46ee-b12f-d6c661d98f22)
 
