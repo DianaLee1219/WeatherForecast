@@ -8,7 +8,7 @@
 
 ![image](https://github.com/user-attachments/assets/554e7ac9-c762-4881-8193-a84348e389dd)
 
-This is the correlation heatmap showing correlation between all the numerical data in the dataset.
+[Graph1. the correlation heatmap showing correlation between all the numerical data in the dataset]
 * Positive correlation
   * 'Temperature' was stronlgy correlated with 'feels like temperater'(0.97) and was moderately correlated with 'UV index' (0.49), which is moderately related with 'feels like temperater'(0.40). 
 * Negative correlation
@@ -17,7 +17,7 @@ This is the correlation heatmap showing correlation between all the numerical da
 
 ![image](https://github.com/user-attachments/assets/24044ca9-9916-4d73-a681-d4e40246cd3a)
 
-This is the temperature distribution graph after removing outliers. 
+[Graph2. The temperature distribution graph after removing outliers]
 * Mean: 23.64 °C
 * Median: 25.40 °C
 * Mode: 28.20 °C
@@ -60,3 +60,5 @@ As you can see on the graph, the temperature drops down during winter season.
 * 2025-03-31     21.10
 
 ![image](https://github.com/user-attachments/assets/5c3b4a03-d01f-4e15-8d1f-cd0b01d2eacb)
+
+This is the 
