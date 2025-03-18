@@ -2,9 +2,8 @@
 ## How it works?
 * It performs EDA to uncover the trends, correlations, and patterns. Including visualizations for temperature and precipitation.
 
-Dataset used
 
-📂WeatherForecast_CleanedOutliers.cvs 
+📂 Input File: WeatherForecast_CleanedOutliers.cvs 
 
 ## Results
 
