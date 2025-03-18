@@ -48,19 +48,6 @@ As you can see on the graph, the temperature drops down during winter season and
 
 ![image](https://github.com/user-attachments/assets/28f4a9e3-dd5e-47dd-ac37-e01baff15f7b)
 
-📅 Monthly Average Temperatures (°C ):
-* 2024-05-31     25.29
-* 2024-06-30     26.22
-* 2024-07-31     26.41
-* 2024-08-31     26.51
-* 2024-09-30     24.83
-* 2024-10-31     22.61
-* 2024-11-30     21.57
-* 2024-12-31     20.38
-* 2025-01-31     20.49
-* 2025-02-28     20.41
-* 2025-03-31     21.10
-
 ![image](https://github.com/user-attachments/assets/5c3b4a03-d01f-4e15-8d1f-cd0b01d2eacb)
 
 [Graph5. The temperature distribution by weather condition]
