@@ -82,7 +82,7 @@ The average temperature varies significantly by weather type:
 
 * Each time you run the script, different countries will appear in the plot, providing more diverse insights.
 
-## Distribution of precipitation
+## Precipitation outliers
 ![image](https://github.com/user-attachments/assets/e13ca009-7a06-4250-a43b-d96f8c229a95)
 
 * Mean: 0.16 mm/h
@@ -98,4 +98,4 @@ The precipitation data shows extreme skewness and kurtosis due to outliers from 
 
 * Outliers were detected and clipped during preprocessing:
 ** One extreme value was clipped to 410 kph (original: 2963 kph).
-** Other hurricane-level winds (e.g., 272, 258, 205, 172 kph) were also identified.
+** Other hurricane-level winds (e.g., 272, 258, 205, 172 kph) were also identified by plotting this graph.
