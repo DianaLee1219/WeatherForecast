@@ -99,12 +99,11 @@ More information:  AverageTemperaturebyWeatherCondition.txt
 
 
 ![image](https://github.com/user-attachments/assets/e13ca009-7a06-4250-a43b-d96f8c229a95)
-[Graph 11. ]
+[Graph 11. Distribution of precipitation (mm)]
+
 📊 Precipitation Statistics:
 * Mean: 0.16 mm
 * Median: 0.00 mm
 * Mode: 0.00 mm
 * Skewness: 18.80 (>1, highly right-skewed)
 * Kurtosis: 719.34 (>3, heavy-tailed distribution)
-
-
