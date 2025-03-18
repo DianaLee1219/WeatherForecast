@@ -26,7 +26,7 @@ This is the temperature distribution graph after removing outliers.
 * Max Temperature: 47.80 °C
 * Range: 54.40 °C
 * Skewness: -0.94 (Left-skewed)
-* Kurtosis: 0.98 (Light-tailed distribution)
+* Kurtosis: 0.98 (Light-tailed)
 
 ![image](https://github.com/user-attachments/assets/5d25c38e-3509-4eea-accf-d89739dde7e3)
 This is the air quality PM2.5 distribution graph after removing outliers. 
@@ -37,8 +37,8 @@ This is the air quality PM2.5 distribution graph after removing outliers.
 * Min PM2.5: 0.18 (µg/m3)
 * Max PM2.5: 46.80 (µg/m3)
 * Range: 54.40 (µg/m3)
-* Skewness: 1.11
-* Kurtosis: 0.58
+* Skewness: 1.11 (Left-skewed)
+* Kurtosis: 0.58 (Light-tailed)
 
 ![image](https://github.com/user-attachments/assets/1fa5d251-6343-4e21-bab1-6c9baf9b62f8)
 
