@@ -94,4 +94,17 @@ More information:  AverageTemperaturebyWeatherCondition.txt
 * Kurtosis: 0.48 (Light-tailed)
 
 ![image](https://github.com/user-attachments/assets/706dd611-86c7-4736-aabb-d03caf83549f)
-[Graph 10. 
+[Graph 10. Randomly selected 10 countries and boxploted showing temperature distributuion]
+* Each time you run the script, different countries will appear in the plot, providing more diverse insights.
+
+
+![image](https://github.com/user-attachments/assets/e13ca009-7a06-4250-a43b-d96f8c229a95)
+[Graph 11. ]
+📊 Precipitation Statistics:
+* Mean: 0.16 mm
+* Median: 0.00 mm
+* Mode: 0.00 mm
+* Skewness: 18.80 (>1, highly right-skewed)
+* Kurtosis: 719.34 (>3, heavy-tailed distribution)
+
+
