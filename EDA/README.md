@@ -2,7 +2,6 @@
 ## How it works?
 * It performs EDA to uncover the trends, correlations, and patterns. Including visualizations for temperature and precipitation.
 
-
 📂 Input File: WeatherForecast_CleanedOutliers.cvs 
 
 ## Results
@@ -15,3 +14,7 @@ This is the correlation heatmap showing correlation between all the numerical da
 * Negative correlation
   * 'Humidity' was moderately related to 'UV index' (-0.57) and 'air quality (Ozone)' (-0.5).
   * 'Air quality (NO2)' was moderately related to 'temperature' (-0.43) and 'feels like temperater'(-0.42).
+
+![image](https://github.com/user-attachments/assets/f7d0ddef-27a9-4778-a214-48f778bd343d)
+
+This is the temperature distribution 
