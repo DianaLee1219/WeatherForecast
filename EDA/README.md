@@ -113,8 +113,11 @@ As you can see on the graph, the temperature drops down during winter season and
 
 ![image](https://github.com/user-attachments/assets/7e0368d8-8553-46ee-b12f-d6c661d98f22)
 
-[Graph 6. It shows outliers in wind speed (it was feature clipped based on the historical data, maximum 410 kph).]
-* One data has clipped into 410 (originally it was 2963)
-* Other data such as 272, 258, 205, 172 were identified as outliers (Hurricane is 120kph)
-* I decided to remove those outliers manualy since it is only 5 data.
+![image](https://github.com/user-attachments/assets/d86383bb-6638-4113-9602-6c7323878491)
 
+* One data has clipped into 410 (originally it was 2963)
+* Other data such as 272, 258, 205, 172 were identified as hurricane (>120kph)
+
+![image](https://github.com/user-attachments/assets/d326eab6-4355-42ed-96e9-580e32bced88)
+
+*
