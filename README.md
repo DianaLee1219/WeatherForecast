@@ -1,7 +1,7 @@
 # WeatherForecast Project - Data Science
 
 ## Data Cleaning & Preprocessing
-0. Delete irrelevant data
+0. Delete irrelevant data 
 1. Handle missing values / Typo
 2. Delete insufficient data
 3. Standarize data 
