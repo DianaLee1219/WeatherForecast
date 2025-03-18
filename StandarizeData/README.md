@@ -30,5 +30,5 @@ Deleted Columns:
 * precip_in
 * feels_like_fahrenheit
 * visibility_miles
-
+  📁 Input File: cleaned_data.csv
   📁 Final Output File: WeatherForecast_CleanedUnits.csv
