@@ -2,7 +2,7 @@
 
 * Built a basic forecasting model and evaluate its performance using different metrics.
 * Enhanced the performance by multiple iterations and hyperparameter tuning
-* Feature Importance Analysis
+* Feature Importance Analysis was conducted
 
 ## Summary
 
