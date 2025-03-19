@@ -8,7 +8,7 @@ To define relevant weather data, I analyzed the Weather app on my iPhone 12 and 
 1. Basic Features: Time series, location, temperature, condition
 2. Advanced Features: Feels-like temperature, air quality (PM2.5, ozone, NO₂), precipitation, UV index, sunrise, sunset, wind direction, humidity, visibility, and pressure
 
-After downloading the dataset from Kaggle (World Weather Repository: https://www.kaggle.com/datasets/nelgiriyewithana/global-weather-repository/code), I removed irrelevant columns from the GlobalWeatherRepository.csv file. 
+After downloading the dataset from Kaggle [World Weather Repository](https://www.kaggle.com/datasets/nelgiriyewithana/global-weather-repository/code), I removed irrelevant columns from the GlobalWeatherRepository.csv file. 
 
 The following features were excluded:
 
