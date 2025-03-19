@@ -1,9 +1,10 @@
-# Forecasting model
+# Weather Forecasting model
 
 * Built a basic forecasting model and evaluate its performance using different metrics.
-* Used lastupdated feature for the time series analysis.
+* Enhanced the performance by multiple iterations and hyperparameter tuning
+* Feature Importance Analysis
 
-## How it works?
+## Summary
 
 I've made significant progress via multiple iterations of model enhancement.
 
@@ -15,75 +16,76 @@ I've made significant progress via multiple iterations of model enhancement.
    
 ## Initial Model
 * Basic **RandomFresetRegressor** model
-  * 24 lag features (24 hours)
-  * Simple datetime features (hour/day/month)
-  * **train_test_split()** without scaling or hyperparameter tuning
+   * 24 lag features (24 hours)
+   * Simple datetime features (hour/day/month)
+   * **train_test_split()** without scaling or hyperparameter tuning
 
 * Model performance:
-  * MAE: 2.928
-  * MSE: 19.75
-  * RMSE: 4.444
+   * MAE: 2.928
+   * MSE: 19.75
+   * RMSE: 4.444
  ![image](https://github.com/user-attachments/assets/3ececb1b-4b4c-4932-8f81-7f509373f697)
 
 * Trouble shooting:
-  * Lack of cyclic encoding for datetime features
-  * No scaling (hard to converge)
-  * No hyperparameter tuning → Suboptimal model performance
-  * Limited lag features → Insufficient temporal information
+   * Lack of cyclic encoding for datetime features
+   * No scaling (hard to converge)
+   * No hyperparameter tuning → Suboptimal model performance
+   * Limited lag features → Insufficient temporal information
 
 ## Enhanced Model
 * Feature Modeling:
-  * Added cyclic encoding for hour and month to preserve temporal relationships
-  * Added weekday and weekend binary feature to capture weekly patterns
+   * Added cyclic encoding for hour and month to preserve temporal relationships
+   * Added weekday and weekend binary feature to capture weekly patterns
 * Increased to 72 lag features (3days)
 * Feature Scaling:
-  * Applied StandardScaler() → Normalizes feature values, improving model stability
+   * Applied StandardScaler() → Normalizes feature values, improving model stability
 * Model Modifications:
-  * Increased n_estimators from 100 → 200
-  * Added max_features='sqrt' → Prevents overfitting
+   * Increased n_estimators from 100 → 200
+   * Added max_features='sqrt' → Prevents overfitting
 * Model Performance:
-  * MAE: 2.816 (↓ 3.8% improvement)
-  * MSE: 17.84 (↓ 9.7% improvement)
-  * RMSE: 4.224 (↓ 4.9% improvement)
+   * MAE: 2.816 (↓ 3.8% improvement)
+   * MSE: 17.84 (↓ 9.7% improvement)
+   * RMSE: 4.224 (↓ 4.9% improvement)
  
 ![image](https://github.com/user-attachments/assets/374000d5-d917-457c-9f82-22f964c290e1)
 
 ## Optimized Model with RandomizedSearchCV
 * Hyperparameter Optimization:
- * Used RandomizedSearchCV with:
- * n_estimators: [100, 200, 300]
- * max_depth: [10, 20, 30, 40]
- * min_samples_split: [2, 5, 10]
- * min_samples_leaf: [1, 2, 4]
- * max_features: ['auto', 'sqrt', 'log2']
- * bootstrap: [True, False] 
-* Best Parameters Identified:
- * n_estimators: 300
- * min_samples_split: 2
- * min_samples_leaf: 2
- * max_features: 'sqrt'
- * max_depth: 40
- * bootstrap: False
+   * Used RandomizedSearchCV with:
+   * n_estimators: [100, 200, 300]
+   * max_depth: [10, 20, 30, 40]
+   * min_samples_split: [2, 5, 10]
+   * min_samples_leaf: [1, 2, 4]
+   * max_features: ['auto', 'sqrt', 'log2']
+   * bootstrap: [True, False]
+   * Best Parameters Identified:
+   * n_estimators: 300
+   * min_samples_split: 2
+   * min_samples_leaf: 2
+   * max_features: 'sqrt'
+   * max_depth: 40
+   * bootstrap: False
 * Model Performance (ref: the Initial Model)
- * MAE: 2.755 (↓ 5.9%)
- * MSE: 17.43 (↓ 11.7%)
- * RMSE: 4.175 (↓ 6.1%)
+   * MAE: 2.755 (↓ 5.9%)
+   * MSE: 17.43 (↓ 11.7%)
+   * RMSE: 4.175 (↓ 6.1%)
 
 ## Additional: Feature Importance Analysis
 * GridSearchCV + Feature Importance Analysis
 * Key Finding:
- * lag_24 had the highest importance (0.5) → Lagged temperature from 24 hours prior is the most influential.
- * Most other features had importance < 0.1, indicating lower contribution.
+   * lag_24 had the highest importance (0.5) → Lagged temperature from 24 hours prior is the most influential.
+   * Most other features had importance < 0.1, indicating lower contribution.
+![image](https://github.com/user-attachments/assets/9af79d12-360a-4440-b79c-94b0cc1a9775)
 
 ## Further Studies and Next Steps
 I found many other ways to improve the performance. Therefore, I suggest further studies below.
 
 * Time aware cross-validation
- * Still, train_test_split() does not account for time dependency.
- * Switching to TimeSeriesSplit() prevents data leakage and mimics real-world forecasting conditions.
+   * Still, train_test_split() does not account for time dependency.
+   * Switching to TimeSeriesSplit() prevents data leakage and mimics real-world forecasting conditions.
 
 * Model Blending
-  * Combining multiple models (RandomForest + XGBoost + LightGBM) often improves accuracy.
+   * Combining multiple models (RandomForest + XGBoost + LightGBM) often improves accuracy.
  
 * Switch to Gradient Boosting Models
- * XGBoost or LightGBM could outperform RandomForest for time series forecasting
+   * XGBoost or LightGBM could outperform RandomForest for time series forecasting
