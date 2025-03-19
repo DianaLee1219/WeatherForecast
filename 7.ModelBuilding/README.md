@@ -15,7 +15,7 @@ I've made significant progress via multiple iterations of model enhancement.
 | Optimized Model | 2.755 (↓5.9%) | 17.43 (↓11.7%) | 4.175 (↓6.1%) | Hyperparameter tuning |
    
 ## Initial Model
-* Basic **RandomFresetRegressor** model
+* Basic **RandomForestRegressor** model
    * 24 lag features (24 hours)
    * Simple datetime features (hour/day/month)
    * **train_test_split()** without scaling or hyperparameter tuning
