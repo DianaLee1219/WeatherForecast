@@ -21,7 +21,7 @@ To ensure consistency, we convert all values to a standard unit and verify the a
 After conversion, the script compares the original and calculated values. If the difference exceeds a predefined threshold, a warning message is displayed.
 
 | Measurement | Original Unit | Converted To |
-| --- | ----|
+|  :---:   |  :---:  
 | Temperature | Fahrenheit (°F) | Celsius (°C) |
 | Wind Speed | Miles per hour (mph) | Kilometers per hour (kph) |
 | Pressure | Inches (in) | Millibars (mb) |
