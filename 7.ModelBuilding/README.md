@@ -7,9 +7,9 @@
 
 I've made significant progress via multiple iterations of model enhancement.
 
-| Model Version | MAE | MSE | RMSE | Key Changes |
+| Model Version | MAE | MSE | RMSE | Key Features |
 | --- | --- | --- | --- | --- |
-| Initial Model (Baseline) | 2.928 | 19.75 | 4.444 | Basic RF, 24 lags, no scaling |
+| Initial Model (Baseline) | 2.928 | 19.75 | 4.444 | Basic RF, 24 lags |
 | Enhanced Model | 2.816 (↓3.8%) | 17.84 (↓9.7%) | 4.224 (↓4.9%) | Feature engineering + scaling |
 | Optimized Model | 2.755 (↓5.9%) | 17.43 (↓11.7%) | 4.175 (↓6.1%) | Hyperparameter tuning |
    
