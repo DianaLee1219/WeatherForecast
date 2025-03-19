@@ -8,8 +8,10 @@ Details are described in each section.
 - **Languages:** Python  
 - **Libraries:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`
 - **Dataset:** [Kaggle World Weather Repository](https://www.kaggle.com/datasets/nelgiriyewithana/global-weather-repository/code)
+- **Data Cleaning:** Google Sheets - auto recommendation
 - **Modeling:** RandomForestRegressor 
 - **Evaluation Metrics:** MAE (Mean Absolute Error), MSE (Mean Squared Error), and RMSE (Root Mean Squared Error)
+
 
 ## Data Cleaning & Preprocessing
 
