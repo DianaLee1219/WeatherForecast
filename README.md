@@ -9,7 +9,7 @@
 5. Normalize data
 
 ## Exploratory Data Analysis (EDA)
-6. Perform EDA 
+6. Perform EDA to uncover the trends, correlations, and patterns
 
 ## Model Building
 7. Forecasting model and evaluation
