@@ -13,12 +13,12 @@ Details are described in each section.
 
 ## Data Cleaning & Preprocessing
 
-0. **Delete irrelevant data** : Drop columns that do not contribute to weather forecasting.  
-1. **Handle missing values & Typos** : Apply google auto-tool and column analysis to handle missing values and typos.
-2. **Delete insufficient data** : Remove rows with small amount of entries (<200)
-3. **Standarize data** : Standarize numerical features (speed or temperature units).
-4. **Outlier removal**: Apply **feature clipping**, **z-score**, or **IQR filtering** to detect and remove extreme values.  
-5. **Normalize data** : Scale the features using Min-Max Scaler.
+0. **Delete irrelevant data** : Remove columns that are not useful for weather forecasting. 
+1. **Handle missing values & Typos** : Use Google auto-tool and column analysis.
+2. **Delete insufficient data** : Remove rows with too few entries (<200).
+3. **Standarize data** : Standardize numerical features (e.g., speed or temperature units).
+4. **Outlier removal**: Use **feature clipping**, **z-score**, or **IQR filtering** to find and remove extreme values.
+5. **Normalize data** : Scale the features using **Min-Max Scaler**.
 
 ## Exploratory Data Analysis (EDA)
 
