@@ -79,10 +79,6 @@ I've made significant progress via multiple iterations of model enhancement.
 ## Further Studies and Next Steps
 I found many other ways to improve the performance. Therefore, I suggest further studies below.
 
-* Time aware cross-validation
-   * Still, train_test_split() does not account for time dependency.
-   * Switching to TimeSeriesSplit() could prevents data leakage and mimics real-world forecasting conditions.
-
 * Model Blending
    * Combining multiple models (RandomForest + XGBoost + LightGBM) often improves accuracy.
  
