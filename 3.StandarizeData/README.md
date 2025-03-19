@@ -1,7 +1,7 @@
 # Overview
-1. RoundUpValues – Standardizes latitude and longitude values.
-2. ValidateUnits – Converts and validates weather unit measurements.
-3. RemoveUnits – Removes redundant columns.
+0. RoundUpValues – Standardizes latitude and longitude values.
+1. ValidateUnits – Converts and validates weather unit measurements.
+2. RemoveUnits – Removes redundant columns.
 
 
   📁 Input File: cleaned_data.csv
