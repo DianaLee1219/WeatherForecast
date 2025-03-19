@@ -9,7 +9,7 @@ Details are described in each section.
 - **Libraries:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`
 - **Dataset:** [Kaggle World Weather Repository](https://www.kaggle.com/datasets/nelgiriyewithana/global-weather-repository/code)
 - **Data Cleaning:** Google Sheets data cleanup tool, Google Maps
-- **Debugging and Documentation:** ChatGPT, DeepSeek
+- **Debugging and Documentation:** ChatGPT
 
 ## Data Cleaning & Preprocessing
 
