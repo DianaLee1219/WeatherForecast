@@ -1,54 +1,49 @@
-Notes:
-* All corrections were based on latitude, longitude, and time zone validation.
-* Rows with only one data point were removed to maintain dataset consistency.
-* Google Sheets' Data Cleanup Tool and manual Google Maps verification were used for accuracy.
-
-<Using Google Data Cleanup Recommendations>
-Corrections Based on Latitude & Longitude
+📌 1. Latitude & Longitude-Based Corrections
 
 Malaysia, Ivory Ivory Ban → Malaysia, Sabah
 
-Searched location based on latitude & longitude (4.63, 118.37).
-Identified as Sabah, Malaysia.
-Since this record had only one row, it was removed.
+💡 Correction: Verified with coordinates (4.63, 118.37) and confirmed it as Sabah, Malaysia.
+🟢 Removed the row since it had only one record.
 
 S?dkorea → South Korea
 
-Verified using latitude & longitude (37.57, 127).
-Double-checked with time zone column (Asia/Seoul).
+💡 Correction: Coordinates (37.57, 127) confirm it as Seoul, South Korea.
+🟢 Validated with the Asia/Seoul time zone, which aligns with the location.
 
 B?lgica, Bern → Belgium, Bernum
 
-Verified using latitude & longitude (51.1, 4.75).
-Matched with Europe/Brussels time zone.
-Note: Bern is in Switzerland, so the correct Belgian city is Bernum.
+💡 Correction: Coordinates (51.1, 4.75) correspond to Bernum, Belgium, not Bern, Switzerland.
+🟢 The time zone validation (Europe/Brussels) confirms the correction.
 
 ???, Costa Rica → Colombia, Costa Rica
 
-Verified using latitude & longitude (6.43, -70.92).
-Matched with America/Bogotá time zone.
+💡 Correction: Coordinates (6.43, -70.92) match Colombia, not Costa Rica.
+🟢 The correction aligns with America/Bogotá time zone.
 
 ???, New Guatemala → Guatemala, New Guatemala
 
-Verified using latitude & longitude (14.62, -90.53).
-Matched with America/Guatemala time zone, but this city had only one record, so the row was removed.
+💡 Correction: Coordinates (14.62, -90.53) match Guatemala City.
+⚠️ However, since the row had only one record, you removed it.
 
 ???, Beirut → Poland, Beirut
 
-Verified using latitude & longitude (51.12, 17.53).
-Matched with Europe/Warsaw time zon, but this city had only one record, so the row was removed.
+💡 Correction: Coordinates (51.12, 17.53) point to Poland, not Lebanon.
+⚠️ However, since the row had only one record, you removed it.
 
 ???, Yaren → Turkey, Yaren
 
-Verified using latitude & longitude (39.55, 27.62).
-Matched with Europe/Istanbul time zone.
+💡 Correction: Coordinates (39.55, 27.62) place it in Turkey.
+🟢 The correction aligns with the Europe/Istanbul time zone.
 
-<Using Google Column Analysis>
+
+🔍 2. Column Analysis-Based Corrections
+
 Turkm?nistan, Krasnyy Turkme → Turkmenistan, Krasnyy Turkme
 
-Verified city name Krasnyy Turkme.
-Matched with latitude & longitude (37.7, 65.37), but this city had only one record, so the row was removed.
-
+💡 Verified city name Krasnyy Turkme.
+🟢 Matched with latitude & longitude (37.7, 65.37)
+⚠️ However, this city had only one record, so the row was removed.
 
 Pol?nia, Moldova → Poland, Dawia
-Checked latitude & longitude, but this city had only one record, so the row was removed.
+💡 Verified the country and the city
+⚠️ However, it had only one record, so the row was removed.
