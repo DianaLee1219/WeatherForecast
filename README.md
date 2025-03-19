@@ -9,9 +9,7 @@ Details are described in each section.
 - **Libraries:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`
 - **Dataset:** [Kaggle World Weather Repository](https://www.kaggle.com/datasets/nelgiriyewithana/global-weather-repository/code)
 - **Data Cleaning:** Google Sheets data cleanup tool, Google Maps
-- **Modeling:** RandomForestRegressor 
-- **Evaluation Metrics:** MAE (Mean Absolute Error), MSE (Mean Squared Error), and RMSE (Root Mean Squared Error)
-
+- **Debugging and Documentation:** ChatGPT, DeepSeek
 
 ## Data Cleaning & Preprocessing
 
@@ -28,4 +26,4 @@ Details are described in each section.
 
 ## Model Building
 
-7. The forecasting model is built using **RandomForestRegressor** and evaluated using MAE, MSE, and RMSE
+7. The forecasting model is built using **RandomForestRegressor** and evaluated using  MAE (Mean Absolute Error), MSE (Mean Squared Error), and RMSE (Root Mean Squared Error)
