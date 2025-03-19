@@ -45,5 +45,6 @@ Turkm?nistan, Krasnyy Turkme → Turkmenistan, Krasnyy Turkme
 ⚠️ However, this city had only one record, so the row was removed.
 
 Pol?nia, Moldova → Poland, Dawia
+
 💡 Verified the country and the city
 ⚠️ However, it had only one record, so the row was removed.
