@@ -6,9 +6,9 @@ Details are described in each section.
 
 ## 🛠️ **Technologies Used**
 - **Languages:** Python  
-- **Libraries:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`  
-- **Modeling:** RandomForestRegressor with `TimeSeriesSplit`  
-- **Evaluation Metrics:** MAE, MSE, RMSE  
+- **Libraries:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`
+- **Modeling:** RandomForestRegressor 
+- **Evaluation Metrics:** MAE (Mean Absolute Error), MSE (Mean Squared Error), and RMSE (Root Mean Squared Error)
 
 ## Data Cleaning & Preprocessing
 
@@ -25,4 +25,4 @@ Details are described in each section.
 
 ## Model Building
 
-7. The forecasting model is built using **RandomForestRegressor** and evaluated using MAE (Mean Absolute Error), MSE (Mean Squared Error), and RMSE (Root Mean Squared Error)
+7. The forecasting model is built using **RandomForestRegressor** and evaluated using MAE, MSE, and RMSE
