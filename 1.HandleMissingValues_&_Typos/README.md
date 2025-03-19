@@ -1,24 +1,20 @@
 # Handling Missing Values and Typos
 ## How does it work?
 
-I corrected typos using Python code and identified missing values afterward.
+A significant number of typos in the **country** and **location_name (city)** fields were identified. 
 
-Most of the work related to correcting typos was done manually.
-
-I noticed a significant number of typos in the **country** and **location_name (city)** fields. 
-
-To speed up the correction process, I used a powerful built-in tool:
+To speed up this correction process, a powerful built-in tool has been applied:
 
 
 ➡ **Google Sheets → Data → Data Cleanup Recommendations**
 
-Additionally, while analyzing column data, I identified more typos by detecting rows with only **one or two** timestamps, whereas most records contained around **300 entries**.
+Additionally, while analyzing the column data, more typos were identified by detecting rows with only **one or two** timestamps, whereas most records contained around **300 entries**.
 
 ## How were corrections made?
 * Verified locations by searching their **latitude and longitude** on **Google Maps**.
 * Double-checked the results using the corresponding **time zone** information to ensure accuracy.
   
-By following this approach, I effectively handled missing values and improved data consistency.
+By following this approach, missing values were effectively handled and the data consistency has improved.
 
 ## History of Corrections
 
