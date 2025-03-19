@@ -77,10 +77,10 @@ I've made significant progress via multiple iterations of model enhancement.
 ![image](https://github.com/user-attachments/assets/9af79d12-360a-4440-b79c-94b0cc1a9775)
 
 ## Further Studies and Next Steps
-I found many other ways to improve the performance. Therefore, I suggest further studies below.
+There are several additional methods to enhance performance. Thus, I propose the following areas for further studies:
 
 * Model Blending
-   * Combining multiple models (RandomForest + XGBoost + LightGBM) often improves accuracy.
+   * Combining multiple models (RandomForest + XGBoost + LightGBM) can often improve accuracy.
  
 * Switch to Gradient Boosting Models
-   * XGBoost or LightGBM could outperform RandomForest for time series forecasting
+   * Algorithms such as XGBoost or LightGBM may outperform RandomForest in time series forecasting tasks.
