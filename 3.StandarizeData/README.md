@@ -20,7 +20,14 @@ To ensure consistency, we convert all values to a standard unit and verify the a
 
 After conversion, the script compares the original and calculated values. If the difference exceeds a predefined threshold, a warning message is displayed.
 
-![image](https://github.com/user-attachments/assets/c208c783-e981-4fcb-bd33-a78c690277b5)
+| Measurement | Original Unit | Converted To |
+| --- | ----|
+| Temperature | Fahrenheit (°F) | Celsius (°C) |
+| Wind Speed | Miles per hour (mph) | Kilometers per hour (kph) |
+| Pressure | Inches (in) | Millibars (mb) |
+| Precipitation | Inches (in) | Millimeters (mm) |
+| Feels-like-Temp | Fahrenheit (°F) | Celsius (°C) |
+| Visibility | Miles (miles) | Kilometers (km) |
 
 ## RemoveUnits: Deleting Redundant Data
 
