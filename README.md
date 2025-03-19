@@ -2,7 +2,7 @@
 A data science project that analyze and forecasts weather conditions using machine learning models. 
 This project covers **data cleaning & preprocessing, exploratory data analysis (EDA)**, **model building**, and **evaluation**. 
 
-$${\color{red} 'Details are described in each section.'}$$
+Details are described in each section.
 
 ## 🛠️ **Technologies Used**
 - **Languages:** Python  
