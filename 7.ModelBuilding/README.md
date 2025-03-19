@@ -1,5 +1,4 @@
-# Forecas
-ting model
+# Forecasting model
 
 * Built a basic forecasting model and evaluate its performance using different metrics.
 * Used lastupdated feature for the time series analysis.
@@ -8,6 +7,12 @@ ting model
 
 I've made significant progress via multiple iterations of model enhancement.
 
+| Model Version | MAE | MSE | RMSE | Key Changes |
+| --- | --- | --- | --- | --- |
+| Initial Model (Baseline) | 2.928 | 19.75 | 4.444 | Basic RF, 24 lags, no scaling |
+| Enhanced Model | 2.816 (↓3.8%) | 17.84 (↓9.7%) | 4.224 (↓4.9%) | Feature engineering + scaling |
+| Optimized Model | 2.755 (↓5.9%) | 17.43 (↓11.7%) | 4.175 (↓6.1%) | Hyperparameter tuning |
+   
 ## Initial Model
 * Basic **RandomFresetRegressor** model
   * 24 lag features (24 hours)
@@ -42,3 +47,43 @@ I've made significant progress via multiple iterations of model enhancement.
   * RMSE: 4.224 (↓ 4.9% improvement)
  
 ![image](https://github.com/user-attachments/assets/374000d5-d917-457c-9f82-22f964c290e1)
+
+## Optimized Model with RandomizedSearchCV
+* Hyperparameter Optimization:
+ * Used RandomizedSearchCV with:
+ * n_estimators: [100, 200, 300]
+ * max_depth: [10, 20, 30, 40]
+ * min_samples_split: [2, 5, 10]
+ * min_samples_leaf: [1, 2, 4]
+ * max_features: ['auto', 'sqrt', 'log2']
+ * bootstrap: [True, False] 
+* Best Parameters Identified:
+ * n_estimators: 300
+ * min_samples_split: 2
+ * min_samples_leaf: 2
+ * max_features: 'sqrt'
+ * max_depth: 40
+ * bootstrap: False
+* Model Performance (ref: the Initial Model)
+ * MAE: 2.755 (↓ 5.9%)
+ * MSE: 17.43 (↓ 11.7%)
+ * RMSE: 4.175 (↓ 6.1%)
+
+## Additional: Feature Importance Analysis
+* GridSearchCV + Feature Importance Analysis
+* Key Finding:
+ * lag_24 had the highest importance (0.5) → Lagged temperature from 24 hours prior is the most influential.
+ * Most other features had importance < 0.1, indicating lower contribution.
+
+## Further Studies and Next Steps
+I found many other ways to improve the performance. Therefore, I suggest further studies below.
+
+* Time aware cross-validation
+ * Still, train_test_split() does not account for time dependency.
+ * Switching to TimeSeriesSplit() prevents data leakage and mimics real-world forecasting conditions.
+
+* Model Blending
+  * Combining multiple models (RandomForest + XGBoost + LightGBM) often improves accuracy.
+ 
+* Switch to Gradient Boosting Models
+ * XGBoost or LightGBM could outperform RandomForest for time series forecasting
