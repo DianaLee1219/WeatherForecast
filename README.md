@@ -7,6 +7,7 @@ Details are described in each section.
 ## 🛠️ **Technologies Used**
 - **Languages:** Python  
 - **Libraries:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`
+- **Dataset:** [Kaggle World Weather Repository](https://www.kaggle.com/datasets/nelgiriyewithana/global-weather-repository/code)
 - **Modeling:** RandomForestRegressor 
 - **Evaluation Metrics:** MAE (Mean Absolute Error), MSE (Mean Squared Error), and RMSE (Root Mean Squared Error)
 
