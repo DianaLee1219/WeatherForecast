@@ -51,7 +51,6 @@ I've made significant progress via multiple iterations of model enhancement.
 
 ## Optimized Model with RandomizedSearchCV
 * Hyperparameter Optimization:
-   * Used RandomizedSearchCV with:
    * n_estimators: [100, 200, 300]
    * max_depth: [10, 20, 30, 40]
    * min_samples_split: [2, 5, 10]
