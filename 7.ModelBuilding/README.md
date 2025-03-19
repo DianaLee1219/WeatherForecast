@@ -13,7 +13,8 @@ I've made significant progress via multiple iterations of model enhancement.
 | Initial Model (Baseline) | 2.928 | 19.75 | 4.444 | Basic RF, 24 lags |
 | Enhanced Model | 2.816 (↓3.8%) | 17.84 (↓9.7%) | 4.224 (↓4.9%) | Feature engineering + scaling |
 | Optimized Model | 2.755 (↓5.9%) | 17.43 (↓11.7%) | 4.175 (↓6.1%) | Hyperparameter tuning |
-   
+
+Feature Importance Analysis: Lagged temperature from 24 hours prior is the most influential.
 ## Initial Model
 * Basic **RandomForestRegressor** model
    * 24 lag features (24 hours)
