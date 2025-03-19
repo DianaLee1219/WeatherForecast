@@ -9,3 +9,5 @@
 - Z-Score Normalization (Standardization)
 - Log Transformation
 - Max Abs Scaling
+
+For this project, min-max scaling has applied to generate a heatmap!
