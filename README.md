@@ -6,10 +6,9 @@
 2. Delete insufficient data
 3. Standarize data 
 4. Outliers removal   
-5. Normalize data
 
 ## Exploratory Data Analysis (EDA)
-6. Perform EDA to uncover the trends, correlations, and patterns
+5. Perform EDA to uncover the trends, correlations, and patterns
 
 ## Model Building
-7. Forecasting model and evaluation
+6. Forecasting model and evaluation
